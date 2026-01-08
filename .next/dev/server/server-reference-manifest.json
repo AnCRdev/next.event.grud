@@ -1,0 +1,66 @@
+{
+  "node": {
+    "00fcabcddbe441c94e01ca3af032b6914d4a5316e0": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getClientes",
+          "filename": "app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "filename": "app/actions.ts",
+      "exportedName": "getClientes"
+    },
+    "40c6feba69c2cf17355a5c5ae76ae366d638192ec2": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createCliente",
+          "filename": "app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "filename": "app/actions.ts",
+      "exportedName": "createCliente"
+    },
+    "40d897e1d5a4af1c76128fb951e2ee658db1235869": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteCliente",
+          "filename": "app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "filename": "app/actions.ts",
+      "exportedName": "deleteCliente"
+    },
+    "600629600b504bebb999fbe2a3be09b0f70032fd3f": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCliente",
+          "filename": "app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "filename": "app/actions.ts",
+      "exportedName": "updateCliente"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "e+xs3FuAYkSO8AzpvIzB+aMw0A3WmsajiPpVGcHped8="
+}
