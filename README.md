@@ -1,20 +1,26 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+### Lista de eventos implementados:
+1.  **onClick**: Al hacer clic en botones de edición, borrado o nuevo.
+2.  **onMouseEnter**: Al pasar el mouse sobre el botón "Nuevo Cliente".
+3.  **onMouseLeave**: Al retirar el mouse del botón "Nuevo Cliente".
+4.  **onDoubleClick**: Al hacer doble clic en una fila de la tabla para editar.
+5.  **onChange**: Al escribir en el buscador de la tabla.
+6.  **onInput**: Al escribir en los campos del formulario (Nombre).
+7.  **onFocus**: Al entrar en el campo de búsqueda.
+8.  **onBlur**: Al salir del campo de búsqueda.
+9.  **onKeyDown**: Al presionar una tecla en el buscador.
+10. **onKeyUp**: Al soltar una tecla en el buscador.
+11. **onSubmit**: Al enviar el formulario de cliente.
+12. **onReset**: Al cancelar o limpiar el formulario.
+13. **onCopy**: Al copiar texto en la zona de demo.
+14. **onCut**: Al cortar texto en la zona de demo.
+15. **onPaste**: Al pegar texto en la zona de demo.
+16. **onSelect**: Al seleccionar texto dentro del área de demo.
+17. **onScroll**: Al hacer scroll dentro de la consola de logs.
+18. **onWheel**: Al usar la rueda del ratón sobre la consola de logs.
+19. **onContextMenu**: Al hacer clic derecho sobre el indicador de información.
+20. **onPointerDown**: Al hacer clic primario sobre cualquier fila de la tabla.
+21. **onInvalid**: Al intentar enviar el formulario con campos requeridos vacíos.
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/drive/1dk-K50gtWpD7YtsfWEExH0V9pKOfhVML
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 4. Lógica de Auditoría
+Dentro del componente, se simula la inserción en la tabla `auditoria_cambios` cada vez que se detecta una operación de edición (`Auditoría: Registro actualizado...`).
